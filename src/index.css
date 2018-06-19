@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.shoppingcart-name img {
+  width: 100px;
+  height: 83px;
+  padding: 10px
+}
+img {
+  width: 5%;
+}
+
+.webImg {
+  width: 5%;
+  float: right;
+}
+
+.backButton {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url('./icons/arrow-back.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  font-size: 0;
+}
+
+.addButton {
+  margin-top: 8px;
+  background: #077915
+}
+.search-button {
+  border-radius: 0 2px 2px 0;
+  background: #077915 url(https://res.cloudinary.com/sivadass/image/upload/v1494692031/icons/search.png) 50% no-repeat;
+  width: 71px;
+  height: 26px;
+  margin-top: 3px;
+  padding-bottom: 6px;
+}
+
+ul {
+  list-style-type:none;   
+   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 182px;
+  padding: 30px;
+  margin: 0px
+
+}
+li {
+  display: flex;
+ text-align: center 
+}
+.box {
+height: 200px;
+width: 180px;
+text-align: center;
+border: 1px solid rgb(175, 165, 165);
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list {
+  padding-left: 22px;
+}
+
+.container {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center
+}
+
+.shopping-top {
+  text-align: center;
+}
+
+input {
+  height: 20px;
+}
+
+.items-count {
+  float: right;
+
+}
+
+.showing-shopping {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.itemCart-name {
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.itemCart-name img {
+  width: 7%
+}
+
+.itemCart-name button {
+  float: right;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: inherit;
+}
